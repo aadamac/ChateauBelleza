@@ -11,27 +11,24 @@ body {
     height: 130px;
 }
 
-
-.navbar, .nav {
+.nav {
     background-color: #E0DCD1;
     font-family: 'Libre Baskerville', serif;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
+    height: 100px;
 }
 
-nav a {
+nav a{
     font-weight: Light;
     font-size: 22px;
     color: rgb(38, 37, 37);
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s;   
+
 }
 
 nav a:hover {
     color: white !important;
-    transform: scale(1.05);
 }
+
 
 .hero {
     position: relative;
