@@ -32,6 +32,8 @@ body
             line-height: 1.6;
         }
 
+
+
         .hero {
             position: relative;
             background-image: url('aada.jpg');
@@ -115,3 +117,14 @@ body
         footer p {
             margin: 5px 0;
         }
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .burger {
+        display: flex;
+    }
+}
