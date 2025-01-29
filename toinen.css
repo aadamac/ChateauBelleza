@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E3D5CA;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+
+   
+}
+
+nav a{
+    font-weight: Light;
+    font-size: 22px;
+    color: rgb(38, 37, 37);
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: white !important;
+}
+
+header h1 {
+    color: #333 !important; /* Muuttaa otsikon tekstivärin */
+}
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif; /* Headings font */
+}
+
+h1.display-4 {
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -40%);
+color:whitesmoke;
+white-space: nowrap;
+}
+h1.display-4.fw-bold {
+    
+    letter-spacing: 2px; /* Lisää tilaa kirjainten väliin */
+
+}
+  .container {
+    position: relative; /* Asettaa kontainerin suhteellisesti suhteessa sen sisältöön */
+  }
+  
+  .kuva {
+    width: auto;
+    height: 120px;
+    position: left;
+}
+
+  
+
+/* Hero-osio */
+
+.hero {
+    height: 400px; /* Rajattu korkeudeksi 400px */
+    background-image: url('spaaOIKEA.jpg'); /* Kuva, jonka polku määritetään */
+    background-size: cover; /* Kuva peittää koko elementin */
+  background-position: center; /* Kuva keskitetään elementtiin */
+  background-repeat: no-repeat; /* Kuva ei toistu */
+  background-color: #D5BDAD;
+}
+
+
+/* Lomake-osio */
+.form-section 
+.form-container {
+
+    background-color:#D5BDAD;
+    padding: 20px 0;
+    width: 1000px;
+}
+
+/* Lomakekortti */
+.form-container {
+    background-color:#D5BDAD!important;
+    color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('jee.jpg');
+    background-size: 500px;
+    font-family: 'Montserrat', sans-serif;
+
+    .custom-bg {
+        background-color: #D5BDAD;
+      }
+
+
+   
+
+    .myButton {
+        box-shadow:inset -1px 0px 15px 0px #1c1b18;
+        background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+        background-color:#eae0c2;
+        border-radius:6px;
+        border:4px #eae0c2; 
+        display:inline-block;
+        cursor:pointer;
+        color:#505739;
+        font-family:Arial;
+        font-size:13px;
+        font-weight:bold;
+        padding:10px 32px;
+        text-decoration:none;
+    }
+    .myButton:hover {
+        background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+        background-color:#ccc2a6;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+
+}
+
+
+
+
+
+.hero-banner h1 {
+    position: relative; /* Asettaa otsikon pseudo-elementin yläpuolelle */
+    font-size: 3rem; /* Iso otsikkoteksti */
+    font-weight: bold; /* Korostettu teksti */
+    text-align: center; /* Keskittää tekstin */
+    z-index: 2; /* Nosta tekstin pseudo-elementin päälle */
+    margin: 0; /* Poistaa ylimääräiset marginaalit */
+    padding: 0 1rem; /* Tekstille pieni tyhjä tila reunoilta */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Tekstivarjo */
+}
+
+@media (max-width: 768px) {
+    .hero-banner h1 {
+        font-size: 2rem; /* Pienennä tekstiä mobiililaitteilla */
+    }
+}
+
+    
+footer {
+    background-color: #D5BDAF;
+    border-top: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 0.9rem;
+    color: #333;
+    margin: 5px 0;
+    }
+    
+
+
