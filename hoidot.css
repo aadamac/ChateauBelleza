@@ -47,8 +47,8 @@ section .card {
 
   /* Footer */
   footer {
-    background-color: #D5BDAF;
-    border-top: 1px solid #ddd;
+    background-color: #343a40;
+    border-top: 1px solid #f8f9fa;
     padding: 20px 0;
     text-align: center;
     }
