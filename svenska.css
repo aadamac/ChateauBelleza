@@ -114,9 +114,7 @@ footer {
     color: #f8f9fa;
 }
 @media screen and (max-width: 600px) {
-    .mobile-image {
-        width: 80%;
-        height: 130px;
-        margin: 0 auto; 
+    .image-container {
+        display: none;
     }
 }
