@@ -7,8 +7,8 @@ body {
 }
 
 .kuva {
-    width: 130;
-    height: autopx;
+    width: auto !important;
+    height: 130px !important;
 }
 
 .nav {
