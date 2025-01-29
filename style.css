@@ -1,4 +1,30 @@
-body {
+body 
+            .nav {
+    background-color: #E0DCD1;
+    font-family: 'Libre Baskerville', serif;
+    height: 100px;
+}
+
+
+.kuva {
+    width: auto;
+    height: 130px;
+    position: left;
+}
+
+nav a{
+    font-weight: Light;
+    font-size: 22px;
+    color: rgb(38, 37, 37);
+    transition: color 0.3s;   
+
+}
+
+nav a:hover {
+    color: white !important;
+}
+
+       {     
             background-color: #F4EFEA;
             font-family: 'Montserrat', sans-serif;
             margin: 0;
