@@ -1,5 +1,5 @@
-body 
-            .nav {
+
+.nav {
     background-color: #E0DCD1;
     font-family: 'Libre Baskerville', serif;
     height: 100px;
@@ -23,7 +23,7 @@ nav a{
 nav a:hover {
     color: white !important;
 }
-
+body 
        {     
             background-color: #F4EFEA;
             font-family: 'Montserrat', sans-serif;
