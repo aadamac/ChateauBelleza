@@ -78,13 +78,6 @@ nav a:hover {
 
 /* Mobiiliversio */
 @media screen and (max-width: 600px) {
-    nav a {
-        display: none; 
-    }
- .nav-links.active {
-        display: none; 
-    }
-
     .nav-links {
         display: flex; 
         position: absolute;
@@ -94,6 +87,10 @@ nav a:hover {
         padding: 10px;
         border-radius: 5px;
         z-index: 1000; 
+    }
+    
+    .nav-links.active {
+        display: none; 
     }
     .burger {
         display: flex;
